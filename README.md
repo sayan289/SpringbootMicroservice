@@ -9,12 +9,21 @@ RestTemplete and FeignClient.For FaultTourance used circuitbreaker and Retry.To 
 
 1. **User**
    - Attributes: `userid`, `name`, `email`, `about`
+   - Running port: 8080
+   - Application name:USER-SERVICE
+   - Database:MySQL
    
 2. **Hotel**
    - Attributes: `id`, `name`, `location`, `about`
+   - Running port:8081
+   - Application name:HOTEL-SERVICE
+   - Database:MYSQL
    
 3. **Rating**
    - Attributes: `ratingId`, `hotelId`, `userId`, `rating`, `feedback`
+   - Running port:8082
+   - Application name:RATING-SERVICE
+   - Database:MYSQL
 
 ## Components
 
@@ -31,6 +40,12 @@ RestTemplete and FeignClient.For FaultTourance used circuitbreaker and Retry.To 
 
 4. **Config Server**
    - Stores common properties of different entities.
+     
+5. **Rest Templete**
+   - To communicate between UserService and RatingService
+     
+6.**Feign Client**
+   -To communicate between HotelService and RatingService
 
 ## Technologies Used
 
