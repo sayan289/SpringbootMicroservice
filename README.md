@@ -70,10 +70,5 @@ RestTemplete and FeignClient.For FaultTourance used circuitbreaker and Retry.To 
 - Configure the service ports in each microservice's `application.properties`.
 - Set up Okta for authentication in the API Gateway.
 
-## Contributing
 
-Contributions are welcome. Please open an issue to discuss any changes you would like to make.
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
